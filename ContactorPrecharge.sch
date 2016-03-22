@@ -1,0 +1,144 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LM555N U?
+U 1 1 56F0DE96
+P 6250 5000
+F 0 "U?" H 5850 5350 50  0000 L CNN
+F 1 "LM555N" H 5850 4650 50  0000 L CNN
+F 2 "" H 6250 5000 50  0000 C CNN
+F 3 "" H 6250 5000 50  0000 C CNN
+	1    6250 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L OPTO-TRANSISTOR U?
+U 1 1 56F0DEFB
+P 7900 5300
+F 0 "U?" H 7700 5500 50  0000 L CNN
+F 1 "OPTO-TRANSISTOR" H 7700 5100 50  0000 L CNN
+F 2 "" H 7700 5100 50  0000 L CIN
+F 3 "" H 7900 5300 50  0000 L CNN
+	1    7900 5300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MOC3021M U?
+U 1 1 56F0DF72
+P 8050 3200
+F 0 "U?" H 7840 3390 50  0000 L CNN
+F 1 "MOC3021M" H 8050 3400 50  0000 L CNN
+F 2 "DIP-6" H 7850 3000 50  0000 L CIN
+F 3 "" H 8025 3200 50  0000 L CNN
+	1    8050 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_PNP_BCE Q?
+U 1 1 56F0E04D
+P 5150 3850
+F 0 "Q?" H 5450 3900 50  0000 R CNN
+F 1 "Q_PNP_BCE" H 5750 3800 50  0000 R CNN
+F 2 "" H 5350 3950 50  0000 C CNN
+F 3 "" H 5150 3850 50  0000 C CNN
+	1    5150 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Q_NPN_BCE Q?
+U 1 1 56F0E0BE
+P 8650 3050
+F 0 "Q?" H 8950 3100 50  0000 R CNN
+F 1 "Q_NPN_BCE" H 9250 3000 50  0000 R CNN
+F 2 "" H 8850 3150 50  0000 C CNN
+F 3 "" H 8650 3050 50  0000 C CNN
+	1    8650 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D?
+U 1 1 56F0E506
+P 10000 3800
+F 0 "D?" H 10000 3900 50  0000 C CNN
+F 1 "D" H 10000 3700 50  0000 C CNN
+F 2 "" H 10000 3800 50  0000 C CNN
+F 3 "" H 10000 3800 50  0000 C CNN
+	1    10000 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D?
+U 1 1 56F0E5AD
+P 9850 3950
+F 0 "D?" H 9850 4050 50  0000 C CNN
+F 1 "D" H 9850 3850 50  0000 C CNN
+F 2 "" H 9850 3950 50  0000 C CNN
+F 3 "" H 9850 3950 50  0000 C CNN
+	1    9850 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L D D?
+U 1 1 56F0E5FE
+P 10000 4100
+F 0 "D?" H 10000 4200 50  0000 C CNN
+F 1 "D" H 10000 4000 50  0000 C CNN
+F 2 "" H 10000 4100 50  0000 C CNN
+F 3 "" H 10000 4100 50  0000 C CNN
+	1    10000 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D?
+U 1 1 56F0E64E
+P 10150 3950
+F 0 "D?" H 10150 4050 50  0000 C CNN
+F 1 "D" H 10150 3850 50  0000 C CNN
+F 2 "" H 10150 3950 50  0000 C CNN
+F 3 "" H 10150 3950 50  0000 C CNN
+	1    10150 3950
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
